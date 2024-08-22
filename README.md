@@ -37,7 +37,10 @@ Description of the above steps:
 The analysis can be found as a separate file. This includes the EDA and analysis completed. 
 
 Initially I visualised the data with scatter plots, however this isn't helpful due to the limited values. Next I used mean averages as a descriptive statistic which showed differences better. From there I was able to complete the regressions to test for the relationship between days admitted and medical condition. This showed statisically significant results for asthma and diabetes. 
-![Scatter Plot](C:\Users\charlotte.townsend\OneDrive - Osborne Clarke\Desktop\BPP\Professional Practice\Portfolio\Images\Scatter Plot.png)
+
+![image](https://github.com/user-attachments/assets/9f455216-c2f9-45f6-a3f1-c6a7515f0e85)
+
+
 ## Data Engineering for Visualisation
 Below is the M-Code behind the PowerQuery steps completed (after Source):
 
