@@ -36,10 +36,13 @@ Description of the above steps:
 ## Data Analysis
 The analysis can be found as a separate file. This includes the EDA and analysis completed. 
 
-Initially I visualised the data with scatter plots, however this isn't helpful due to the limited values. Next I used mean averages as a descriptive statistic which showed differences better. From there I was able to complete the regressions to test for the relationship between days admitted and medical condition. This showed statisically significant results for asthma and diabetes. 
+Initially I visualised the data with scatter plots, however this isn't helpful due to the limited values. Next I used mean averages as a descriptive statistic which showed differences better. Example images of these are below:
+
+![image](https://github.com/user-attachments/assets/9ece95ef-3b15-44a8-b976-1816cc1f454e)
 
 ![image](https://github.com/user-attachments/assets/9f455216-c2f9-45f6-a3f1-c6a7515f0e85)
 
+From there I was able to complete the regressions to test for the relationship between days admitted and medical condition. This showed statisically significant results for asthma and diabetes. 
 
 ## Data Engineering for Visualisation
 Below is the M-Code behind the PowerQuery steps completed (after Source):
@@ -72,3 +75,21 @@ I also loaded in the regression stats, however this didn't need any steps comple
 
 ## Data Visualisation
 Finally, the analysis results are presented through a Power BI dashboard. 
+
+The first page gives a brief overview of the results for those who need to know the key parts quickly:
+
+![image](https://github.com/user-attachments/assets/147d7171-2c68-4740-b083-b39cbd0ea0c0)
+
+The next page if for showing some of the numbers behind the results, whilst still keeping it simple enough:
+
+![image](https://github.com/user-attachments/assets/e70122e6-fe09-46df-bafd-c9dd5f566b7c)
+
+Finally, the last page goes more in depth whilst still explaining what everything means in a simple manner:
+
+![image](https://github.com/user-attachments/assets/bbef43ca-d7e7-4ae8-94e6-38935e5cbd8f)
+
+## Next Steps
+If I were to carry this project on, I would next look into using a larger dataset to confirm these results. After that it can be made into a predictive model. 
+
+
+
