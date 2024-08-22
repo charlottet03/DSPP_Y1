@@ -4,7 +4,8 @@ Data Science Professional Practice Assignment
 [Data set](https://www.kaggle.com/datasets/prasad22/healthcare-dataset?resource=download)
 
 ## Data Engineering for Analysis
-Below is the M-Code behind the PowerQuery steps completed (after Source)
+Below is the M-Code behind the PowerQuery steps completed (after Source):
+
 `#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
     #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Name", type text}, {"Age", Int64.Type}, {"Gender", type text}, {"Blood Type", type text}, {"Medical Condition", type text}, {"Date of Admission", type date}, {"Doctor", type text}, {"Hospital", type text}, {"Insurance Provider", type text}, {"Billing Amount", type number}, {"Room Number", Int64.Type}, {"Admission Type", type text}, {"Discharge Date", type date}, {"Medication", type text}, {"Test Results", type text}}),
     #"Capitalized Each Word" = Table.TransformColumns(#"Changed Type",{{"Name", Text.Proper, type text}}),
